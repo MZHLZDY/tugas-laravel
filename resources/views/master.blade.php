@@ -24,10 +24,10 @@
                     <a href="home" class="nav-link text-white active"><i class="bi bi-bank2 me-2"></i>  HOME</a>
                 </li>
                 <li class="nav-item"></li>
-                    <a href="#" class="nav-link text-white"><i class="bi bi-toggles2 me-2"></i>  MASTER PROJECT</a>
+                    <a href="mproject" class="nav-link text-white"><i class="bi bi-toggles2 me-2"></i>  MASTER PROJECT</a>
                 </li>
                 <li class="nav-item"></li>
-                    <a href="mproject" class="nav-link text-white"><i class="bi bi-ui-radios me-2"></i>  MASTER SERVICE</a>
+                    <a href="#" class="nav-link text-white"><i class="bi bi-ui-radios me-2"></i>  MASTER SERVICE</a>
                 </li>
             </ul>
             <hr>
