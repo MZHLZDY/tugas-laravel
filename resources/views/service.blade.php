@@ -9,14 +9,14 @@
 <body>
     <div class="row g-0 ">
         <div class="col-md-2 d-flex flex-column p-3 text-white bg-dark" style="height: 100vh;">
-            <a class="d-flex align-items-center text-white text-decoration-none"><i class="bi bi-border-style me-2"></i><span class="fs-4 fw-bold ">Freaky Library</span></a>
+            <a class="d-flex align-items-center text-white text-decoration-none"><i class="bi bi-border-style me-2"></i><span class="fs-4 fw-bold ">Freaky mode</span></a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
                     <a href="home" class="nav-link text-white" id="masterBtn"><i class="bi bi-house me-2"></i>Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="service" class="nav-link text-white" id="servicesBtn"><i class="bi bi-tools me-2"></i>Services</a>
+                    <a href="service" class="nav-link text-white" id="servicesBtn"><i class="bi bi-tools me-2"></i>Service</a>
                 </li>
                 <li class="nav-item">
                     <a href="https://wa.me/6285704330669" class="nav-link text-white"><i class="bi bi-chat me-2"></i></i>Chat Me</a>
