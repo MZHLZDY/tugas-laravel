@@ -12,10 +12,10 @@ class courtController extends Controller
      */
     public function index()
     {
-        return view('mcourt');
-        // $court = court::all();
+        $court = court::all();
         // // dd($court);
         // return $court;
+        return view('mcourt', compact('court'));
     }
 
     /**

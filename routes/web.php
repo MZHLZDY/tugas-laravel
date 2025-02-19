@@ -35,7 +35,7 @@ Route::get('/mproject', function () {
 });
 
 Route::get('/court_type', [court_typeController::class, 'index']);
-Route::post('/court_type', [court_typeController::class, 'store']);
+// Route::post('/court_type', [court_typeController::class, 'store']);
 
 Route::resource('court', courtController::class);
 
