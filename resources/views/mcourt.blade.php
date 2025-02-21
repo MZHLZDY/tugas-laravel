@@ -3,7 +3,7 @@
 @section('content title')
 @section('content')
 <div class="col-md-8">
-    <a href="" class="btn btn-success">Add Data</a>
+    <a href="" class="btn btn-success"><i class="bi bi-plus-square"></i></a>
     <table class="table">
         <tr>
             <th>No</th>
@@ -17,8 +17,8 @@
             <td>{{ $data->type->name }}</td>
             <td>{{ $data->name }}</td>
             <td>
-                <a href="" class="btn btn-warning">Edit</a>
-                <a href="" class="btn btn-danger">Hapus</a>
+                <a href="" class="btn btn-warning"><i class="bi bi-pencil-square"></i></a>
+                <a href="" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a>
             </td>
         </tr>
         @empty

@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="col-md-10">
-    <a class="btn btn-success" href="">Add Data</a>
+    <a class="btn btn-success" href=""><i class="bi bi-plus-square"></i></a>
 <table class="table table-striped">
     <thead>
         <tr>
