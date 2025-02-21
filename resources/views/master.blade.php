@@ -24,10 +24,13 @@
                     <a href="court" class="nav-link text-white active"><i class="bi bi-bank2 me-2"></i>  HOME</a>
                 </li>
                 <li class="nav-item"></li>
-                    <a href="mproject" class="nav-link text-white"><i class="bi bi-toggles2 me-2"></i>  MASTER PROJECT</a>
+                    <a href="court_type" class="nav-link text-white"><i class="bi bi-toggles2 me-2"></i> COURT TYPE</a>
                 </li>
                 <li class="nav-item"></li>
-                    <a href="court_type" class="nav-link text-white"><i class="bi bi-ui-radios me-2"></i>  MASTER COURT TYPE</a>
+                    <a href="transaction" class="nav-link text-white"><i class="bi bi-ui-radios me-2"></i>  TRANSACTIONS</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a href="user" class="nav-link text-white"><i class="bi bi-ui-radios me-2"></i>  USERS</a>
                 </li>
             </ul>
             <hr>

@@ -7,5 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class transaction extends Model
 {
-    use HasFactory;
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function court() 
+    {
+        return $this->belongsTo(Court::class, 'court_id');
+    }
 }

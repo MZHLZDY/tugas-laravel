@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\courtController;
 use App\Http\Controllers\court_typeController;
+use App\Http\Controllers\userController;
+use App\Http\Controllers\transactionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,8 +37,11 @@ Route::get('/mproject', function () {
 });
 
 Route::get('/court_type', [court_typeController::class, 'index']);
+Route::get('/user', [userController::class, 'index']);
+Route::get('/transaction', [transactionController::class, 'index']);
 // Route::post('/court_type', [court_typeController::class, 'store']);
 
 Route::resource('court', courtController::class);
+
 
 ?>
